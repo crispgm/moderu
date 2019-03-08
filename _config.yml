@@ -1,0 +1,6 @@
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.txt
+  - moderu.gemspec
+  - README.md
