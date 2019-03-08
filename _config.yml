@@ -1,3 +1,15 @@
+title: Moderu
+name: Aragaki Yui
+description: "Photographer's album theme for モデル (Model)"
+links:
+  - icon: fa-envelope-o
+    link: /
+  - icon: fa-wechat
+    link: /
+  - icon: fa-weibo
+    link: /
+  - icon: fa-instagram
+    link: /
 exclude:
   - Gemfile
   - Gemfile.lock

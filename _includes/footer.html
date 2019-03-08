@@ -1,0 +1,12 @@
+<footer>
+  <div class="footer-copyright">
+    <div>
+      &copy; <a href="/">{{ site.name }}</a>, {{ site.time | date: "%Y" }}.
+    </div>
+  </div>
+  <div class="footer-links">
+    {% for item in site.links %}
+    <a href="{{ item.link }}"><i class="fa {{ item.icon }}"></i></a>
+    {% endfor %}
+  </div>
+</footer>
