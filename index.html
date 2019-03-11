@@ -1,3 +1,22 @@
 ---
 layout: page
 ---
+<div class="content">
+{% for image in site.data.photo %}
+<div class="pic">
+  <div class="pic-overlay">
+    {{ image.date }}{% if image.place %}@ {{ image.place }}{% endif %}
+  </div>
+  <div class="pic-holder" style="background-image: url(/assets/images/{{ image.file }})">
+  </div>
+  <div class="pic-title">
+    {{ image.name }}
+  </div>
+  <div class="pic-desc">
+    {{ image.desc }}
+  </div>
+  <div class="pic-seperator">
+  </div>
+</div>
+{% endfor %}
+</div>

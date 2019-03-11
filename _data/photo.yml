@@ -1,0 +1,25 @@
+- name: Gakki 1
+  desc: From Douban
+  file: p2331515866.webp
+  date: 2019-03-11
+  place: Tokyo
+- name: Gakki 2
+  desc: From Douban
+  file: p1367692185.webp
+  date: 2017-11-21
+  place: Kyoto
+- name: Gakki 3
+  desc: From Douban
+  file: p1578558800.webp
+  date: 2018-03-11
+  place: Osaka
+- name: Gakki 4
+  desc: From Douban
+  file: p739526939.webp
+  date: 2019-01-11
+  place: Nagoya
+- name: Gakki 5
+  desc: From Douban
+  file: p830783445.webp
+  date: 2019-03-02
+  place: Fukuoka

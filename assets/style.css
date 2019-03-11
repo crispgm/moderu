@@ -29,7 +29,7 @@ img {
 }
 
 nav {
-  margin-left: auto;
+  margin-left: 1rem;
   margin-right: auto;
   margin-top: 1.5rem;
   padding-left: 1rem;
@@ -64,35 +64,24 @@ nav a:hover {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-  margin: 1rem auto 0;
+  margin: 1rem 0 0 1rem;
   padding: 0 1rem;
 }
 
 .pic {
-  height: 18rem;
-  margin: 1rem 1rem 0 0;
-  width: 16rem;
-}
-
-.pic:nth-of-type(3n) {
-  margin-right: 0;
-}
-
-.pic img {
-  height: 16rem;
-  width: 16rem;
+  margin: 1rem 2rem 0 0;
 }
 
 .pic-overlay {
   color: white;
   display: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  height: 16rem;
-  line-height: 16rem;
+  height: 20rem;
+  line-height: 20rem;
   position: absolute;
   text-align: center;
-  width: 16rem;
+  width: 30rem;
   z-index: 999;
 }
 
@@ -101,14 +90,24 @@ nav a:hover {
 }
 
 .pic-holder {
-  height: 16rem;
-  width: 16rem;
+  height: 20rem;
+  width: 30rem;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+.pic-title {
+  font-size: 1.4rem;
+  padding: 1rem 0 0;
+  text-align: left;
 }
 
 .pic-desc {
+  color: #aaa;
   font-size: 1rem;
   padding: .4rem 0;
-  text-align: center;
+  text-align: left;
 }
 
 .pic-seperator {
@@ -134,7 +133,7 @@ nav a:hover {
   .content {
     display: block;
     margin: 0 auto;
-    padding: 2rem 0;
+    padding: 0 0 0 1rem;
     text-align: center;
     width: 100%;
   }
@@ -146,19 +145,24 @@ nav a:hover {
     padding: 0 1rem;
   }
 
-  .pic img {
-    width: 100%;
-    height: auto;
+  .pic-title {
+    text-align: center;
+  }
+
+  .pic-desc {
+    text-align: center;
   }
 
   .pic-holder {
     width: 100%;
-    height: auto;
+    height: 20rem;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
   }
 
   .pic-seperator {
     display: block;
-    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
