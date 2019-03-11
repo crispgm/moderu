@@ -7,7 +7,7 @@ layout: page
   <div class="pic-overlay">
     {{ image.date }}{% if image.place %}@ {{ image.place }}{% endif %}
   </div>
-  <div class="pic-holder" style="background-image: url(/assets/images/{{ image.file }})">
+  <div class="pic-holder" style="background-image: url(/{{ site.baseurl }}/assets/images/{{ image.file }})">
   </div>
   <div class="pic-title">
     {{ image.name }}

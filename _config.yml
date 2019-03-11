@@ -1,6 +1,7 @@
 title: Moderu
 name: Aragaki Yui
 description: "Photographer's album theme for モデル (Model)"
+baseurl: /moderu
 links:
   - icon: fa-envelope-o
     link: /
