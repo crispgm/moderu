@@ -122,13 +122,13 @@ nav a:hover {
   }
 
   .title {
-  	text-align: center;
+    text-align: left;
   }
 
   .description {
     margin-bottom: 2rem;
     padding-left: 0;
-    text-align: center;
+    text-align: left;
   }
   
   .content {
