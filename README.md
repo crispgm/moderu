@@ -1,6 +1,6 @@
 # Moderu モデル
 
-![](https://travis-ci.org/crispgm/resume.svg)
+![](https://travis-ci.org/crispgm/moderu.svg)
 ![](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 (WIP) Moderu is a Jekyll theme designed for photography models.
