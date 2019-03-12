@@ -51,7 +51,7 @@ Only `file` is mandatory and others are optional fields. However, it would displ
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at <https://github.com/crispgm/moderu>. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## License
 
