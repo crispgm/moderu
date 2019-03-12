@@ -1,0 +1,10 @@
+language: ruby
+cache: bundler
+sudo: false
+rvm: 2.6
+
+install: scripts/bootstrap
+script: scripts/cibuild
+
+notifications:
+  email: false
