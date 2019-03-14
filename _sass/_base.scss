@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+  color: $color-major;
+  font-family: "Avenir Next", "Segoe UI", Helvetica, Arial;
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  margin: 0 auto;
+  text-align: center;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+img {
+  border: 0;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  color: $color-major;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 1rem 0 0 1rem;
+  padding: 0 1rem;
+}
+
+@media (max-width: $breakpoint) {
+  html {
+    font-size: 12px;
+  }
+
+  .content {
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 0 1rem;
+    text-align: center;
+    width: 100%;
+  }
+}

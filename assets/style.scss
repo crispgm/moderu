@@ -1,0 +1,17 @@
+---
+---
+
+/*
+ * Theme of Moderu
+ * Copyright (c) David Zhang, 2019
+ */
+
+$breakpoint: 52rem;
+
+$color-major: #484848;
+$color-minor: #aaa;
+
+@import "base";
+@import "nav";
+@import "pic";
+@import "footer";

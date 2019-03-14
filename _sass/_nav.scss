@@ -1,0 +1,48 @@
+nav {
+  color: $color-major;
+  margin: 1.5rem 1rem 1rem;
+  padding: 0 1rem 1rem;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.nav-title {
+  font-size: 2.8rem;
+  line-height: 1.0;
+  padding-top: 1.8rem;
+  text-align: left;
+}
+
+.nav-description {
+  padding-top: 1rem;
+  text-align: left;
+}
+
+.nav-menu {
+  font-size: 1.4rem;
+  padding-top: 1rem;
+}
+
+@media (max-width: $breakpoint) {
+  nav {
+    border-radius: 0;
+    width: 100%;
+  }
+
+  .nav-title {
+    text-align: left;
+  }
+
+  .nav-description {
+    margin-bottom: 2rem;
+    padding-left: 0;
+    text-align: left;
+  }
+}
