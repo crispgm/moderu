@@ -27,7 +27,8 @@ nav {
 
 .nav-menu {
   font-size: 1.4rem;
-  padding-top: 1rem;
+  line-height: 2.0;
+  padding-top: 1.8rem;
 }
 
 @media (max-width: $breakpoint) {
@@ -44,5 +45,9 @@ nav {
     margin-bottom: 2rem;
     padding-left: 0;
     text-align: left;
+  }
+
+  .nav-menu {
+    padding-right: 1rem;
   }
 }
