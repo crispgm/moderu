@@ -45,6 +45,10 @@ Edit `_data/photo.yml`:
 
 Only `file` is mandatory and others are optional fields. However, it would display better with these fields.
 
+### Colors
+
+There are only 2 colors used in this theme. A major color `$color-major` and a minor color `$color-minor`. Change it in `./assets/style.scss` at your own interest.
+
 ## Showcases
 
 * <https://crispgm.github.io/moderu/index.html>
