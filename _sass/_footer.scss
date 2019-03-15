@@ -18,15 +18,17 @@ footer {
 }
 
 .footer-links {
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 1rem 0;
   
   a {
-    margin-left: 1rem;
     color: $color-minor;
+    margin-left: 1rem;
+    text-decoration: none;
 
     &:hover {
       color: $color-major;
+      text-decoration: none;
     }
 
     &:first-of-type {

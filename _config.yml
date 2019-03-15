@@ -3,13 +3,13 @@ name: Aragaki Yui
 description: "Photographer's album theme for モデル (Model)"
 baseurl: /moderu
 links:
-  - icon: fa-envelope-o
+  - icon: icon-envelope-o
     link: /
-  - icon: fa-wechat
+  - icon: icon-wechat
     link: /
-  - icon: fa-weibo
+  - icon: icon-weibo
     link: /
-  - icon: fa-instagram
+  - icon: icon-instagram
     link: /
 exclude:
   - Gemfile

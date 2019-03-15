@@ -49,6 +49,18 @@ Only `file` is mandatory and others are optional fields. However, it would displ
 
 There are only 2 colors used in this theme. A major color `$color-major` and a minor color `$color-minor`. Change it in `./assets/style.scss` at your own interest.
 
+### Contacts
+
+Contact's info is configured in `_config.yml`.
+
+```yaml
+links:
+  - icon: icon-envelope-o
+    link: https://link.to/your/page
+```
+
+Icon is powered by IcoMoon with FontAwesome icon font and icons of social networks are included by default. e.g. `icon-twitter` for Twitter icon. For more icons, please replace with your own icon pack.
+
 ## Showcases
 
 * <https://crispgm.github.io/moderu/index.html>

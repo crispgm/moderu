@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    jekyll-moderu (0.1.0)
+    jekyll-moderu (0.2.0)
       jekyll (~> 3.8)
 
 GEM
