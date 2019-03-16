@@ -33,7 +33,7 @@
 
 .pic-holder {
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   background-repeat: no-repeat;
   height: 24rem;
   width: 24rem;
@@ -56,7 +56,20 @@
   display: none;
 }
 
-@media (max-width: $breakpoint) {
+@media (max-width: 54rem) {
+  .pic-overlay {
+    line-height: 20rem;
+    width: 50%;
+    height: 20rem;
+  }
+
+  .pic-holder {
+    width: 50;
+    height: 20rem;
+  }
+}
+
+@media (max-width: 42rem) {
   .pic-container {
     display: block;
     margin: 0 auto;
@@ -66,7 +79,6 @@
   }
 
   .pic {
-    height: auto;
     width: 100%;
     margin: 0 0 1rem;
     padding: 0 1rem;
@@ -80,26 +92,20 @@
     text-align: center;
   }
 
-  .pic-holder {
+  .pic-overlay {
+    height: 42rem;
+    line-height: 42rem;
     width: 100%;
-    height: 20rem;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
+  }
+
+  .pic-holder {
+    height: 42rem;
+    width: 100%;
   }
 
   .pic-seperator {
     display: block;
     padding-bottom: 1rem;
-
-    hr {
-      border-top: solid #eee 1px;
-      border-bottom: none;
-      border-left: none;
-      border-right: none;
-      color: #eee;
-      width: 1rem;
-    }
   }
 
   .pic:last-child .pic-seperator {
