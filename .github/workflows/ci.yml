@@ -17,4 +17,4 @@ jobs:
       - name: "Setup bundle"
         run: "bundle install --jobs 4 --retry 3"
       - name: "Run Test Suite"
-        run: "bash script/cibuild"
+        run: "bash scripts/cibuild"
