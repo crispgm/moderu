@@ -1,11 +1,18 @@
 # [Moderu モデル](https://crispgm.github.io/moderu/index.html)
 
-![CI](https://travis-ci.org/crispgm/moderu.svg)
-![Powered by Jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
+<p align="center">
+  <img src="https://github.com/crispgm/resume/workflows/build/badge.svg" alt="GitHub CI" />
+  <a href="https://rubygems.org/gems/jekyll-moderu">
+    <img src="https://badge.fury.io/rb/jekyll-moderu.svg" alt="Gem Version" />
+  </a>
+  <img src="https://img.shields.io/badge/powered%20by-jekyll-blue.svg" alt="Powered by Jekyll" />
+</p>
 
 Moderu is a Jekyll theme designed for photography models, as a place to show their photos.
 
 Moderu is the Romaji of the Japanese word モデル, which actually the English word--model. :)
+
+![screenshot](./assets/images/screenshot.png)
 
 ## Installation
 
