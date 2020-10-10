@@ -1,7 +1,7 @@
-# Moderu モデル
+# [Moderu モデル](https://crispgm.github.io/moderu/index.html)
 
-![](https://travis-ci.org/crispgm/moderu.svg)
-![](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
+![CI](https://travis-ci.org/crispgm/moderu.svg)
+![Powered by Jekyll](https://img.shields.io/badge/powered%20by-jekyll-blue.svg)
 
 Moderu is a Jekyll theme designed for photography models, as a place to show their photos.
 
@@ -23,11 +23,15 @@ theme: moderu
 
 And then execute:
 
-    $ bundle
+```shell
+bundle install
+```
 
 Or install it yourself as:
 
-    $ gem install moderu
+```shell
+gem install moderu
+```
 
 ## Usage
 
@@ -63,7 +67,7 @@ Icon is powered by IcoMoon with FontAwesome icon font and icons of social networ
 
 ## Showcases
 
-* <https://crispgm.github.io/moderu/index.html>
+- <https://crispgm.github.io/moderu/index.html>
 
 ## Contributing
 
