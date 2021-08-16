@@ -19,7 +19,7 @@ Moderu is the Romaji of the Japanese word モデル, which actually the English 
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "moderu"
+gem "jekyll-moderu"
 ```
 
 And add this line to your Jekyll site's `_config.yml`:
@@ -37,7 +37,7 @@ bundle install
 Or install it yourself as:
 
 ```shell
-gem install moderu
+gem install jekyll-moderu
 ```
 
 ## Usage
