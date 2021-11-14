@@ -6,9 +6,11 @@
       </a>
     </div>
   </div>
+  {% unless site.nav.no_about %}
   <div class="nav-menu">
     <a href="{{ site.baseurl }}/about.html">ABOUT</a>
   </div>
+  {% endunless %}
   <div class="nav-description">
     {{ site.description }}
   </div>

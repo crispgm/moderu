@@ -11,6 +11,8 @@ links:
     link: /
   - icon: icon-instagram
     link: /
+nav:
+  no_about: true
 exclude:
   - Gemfile
   - Gemfile.lock

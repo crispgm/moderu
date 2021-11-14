@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-moderu"
-  spec.version       = "0.3.1"
+  spec.version       = "0.3.2"
   spec.authors       = ["David Zhang"]
   spec.email         = ["crispgm@gmail.com"]
 
