@@ -5,16 +5,13 @@ jobs:
     name: run
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
-      - name: Set up Ruby 2.6
-        uses: actions/setup-ruby@v1
+      - uses: actions/checkout@v7
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 2.6.x
-      - name: "Update Rubygems & Bundler"
-        run: "gem update --system --no-document && gem update bundler --no-document"
-      - name: "Install Bundler 2"
-        run: 'gem install bundler -v "2.0.1" --force'
-      - name: "Setup bundle"
-        run: "bundle install --jobs 4 --retry 3"
+          ruby-version: "3.3"
+          bundler: "2"
+          bundler-cache: true
+          cache-version: 1
       - name: "Run Test Suite"
         run: "bash scripts/cibuild"
